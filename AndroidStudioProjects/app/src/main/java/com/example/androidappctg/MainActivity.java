@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     int cena = object.getInt("price");
                     String opis = object.getString("description");
 
-                    data.add(name + " " + cena + " " + opis);
+                    data.add(name + "\n" + cena + "€" + "\n" + opis);
 
                 } catch (JSONException e){
                     e.printStackTrace();
